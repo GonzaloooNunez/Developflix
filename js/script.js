@@ -28,8 +28,8 @@ function createDivPelicula(datos) {
     "src",
     `https://image.tmdb.org/t/p/w500${datos.poster_path}`
   );
-  peli.appendChild(titulo);
   peli.appendChild(imagen);
+  peli.appendChild(titulo);
   return peli;
 }
 
